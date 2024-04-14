@@ -1,0 +1,134 @@
+:root {
+    --main-color: #fff;
+    --secondary-color: #0854a0;
+    --choco-color: #704104;
+    --background-boxes: #fff;
+    font-size: 10px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--main-color);
+    font-family: "Grandstander", cursive;
+    margin-top: 68px; 
+  }
+  
+  /* Navigation Bar */
+  .top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    box-shadow: 5px 5px 5px rgba(77, 77, 77, 0.2);
+    z-index: 888;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--choco-color);
+    padding: 1.67em 5rem; 
+    text-shadow: 2px 2px 10px #3a3939;
+  }
+  
+  #menu {
+    display: flex;
+  }
+  
+  #menu li {
+    list-style: none;
+    margin-right: 2rem; 
+  }
+  
+  #menu a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: var(--choco-color);
+    font-weight: bold;
+  }
+  
+  #menu a:hover {
+    color: var(--secondary-color);
+  }
+  
+  
+  /* Hero Section */
+  main {
+    text-align: center;
+  }
+  
+  .hero-text {
+    width: 70%;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 5.6rem;
+  }
+  
+  p
+  {
+    margin-top: 4rem;
+    font-size: 2.2rem;
+  }
+  /* Footer */
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    padding: 1.67em 0;
+    text-align: center;
+    text-shadow: 2px 2px 10px #3a3939;
+
+    
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: var(--main-color);
+  }
+  
+  footer a:hover {
+    color: var(--choco-color);
+  }
+  
+  .table-responsive {
+    margin-top: 30px; 
+  }
+  
+  /* Media Queries */
+  /* @media (max-width: 810px) {
+    .nav-bar {
+      padding: 1.67em 2rem; /* Adjusted padding */
+    /* }
+  
+    #menu {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    #menu li {
+      margin: 1rem 0;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .hero-text {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 3.8rem;
+    }
+  }
+   */ 
